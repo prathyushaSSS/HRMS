@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hrms menu</title>
+	<style>
+	body{
+	background-image:url("hrmsmenu1.jpg");
+	background-size: cover;
+background-position: cover;
+font-family: verdana;
+font-size: 10px;
+margin:0; 
+line-height: 5px;
+}
+.navbar{
+	text-align:center;
+	width: 100%;
+	background:white;
+	opacity: 0.5s;
+}
+.navbar ul{
+margin:0;
+padding:0;
+list-style: none;
+position: relative;
+}
+.navbar ul li a{
+	display: block;
+	padding:10px;
+	color: black;
+	text-decoration: none;
+	width:auto;
+}
+.navbar ul:after{
+	content:"";clear: both;
+	display: block;
+}
+.navbar ul li{
+	float: left;
+	list-style: none;
+	padding:auto;
+}
+.navbar ul ul{
+display: none;
+
+}
+.navbar ul li:hover>ul{
+	display:block;
+}
+.navbar ul li:hover {
+	background:lightblue;
+	transition: 0.9s;
+	padding: auto;
+}
+.navbar ul li:hover a{
+	color:white;
+}
+.navbar ul ul {
+	background:white;
+	padding: 0;
+	margin: 0;
+	position: absolute;top:100%;
+}
+.navbar ul ul li{
+	float:none;
+	position: relative;
+}
+.navbar ul ul li a{
+padding:5px;
+color: white;
+width:auto;
+text-align: left;
+font-size:auto;
+background-color: lightblue;
+}
+.navbar ul ul li a:hover {
+	background: lightblue;
+	color:black;
+	transition: 0.9s;
+	width:auto;
+	background-color:#DCDCDC;
+}
+h2{
+	color:black;
+}
+
+
+
+
+</style>
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+            <li><a href="#">Employee</a>
+	        <ul>
+		       <li><a href="Addnewemployee.html">Add new employee</a></li>
+		       <li><a href="edit_personaldetails.html">Edit employee personal details</a></li>
+		       <li><a href="editemployeejobdetails.html">Edit employee job details</a></li>
+		       <li><a href="editemployeesalary.html">Edit employee salary details</a></li>
+	        </ul>
+</li>
+<li><a href="#">Leaves</a>
+	<ul>
+		<li><a href="employeeleaves.html">Employee leaves</a></li>
+		<li><a href="#">Leaves application</a></li>
+	</ul>
+</li>
+<li><a href="#">Payroll</a>
+<ul>
+	<li><a href="editemployeesalary.html">Salary structure</a></li>
+	<li><a href="employee_montly_attendence.html">Attendance details</a></li>
+	<li><a href="monthlyleavereport.html">Leave details</a></li>
+</ul>
+</li>
+<li><a href="#">Attendance</a>
+<ul>
+	<li><a href="MonthlyAttendanceReport.html">Monthly attendance report</a></li>
+	<li><a href="dailyattendancereport.html">Daily attendance report</a></li>
+</ul>
+</li>
+<li><a href="#">Recruitment</a>
+<ul>
+	<li><a href="recruitment.html">Register</a></li>
+	<li><a href="">Recruitment details</a></li>
+</ul>
+</li>
+<li><a href="#">Loan</a>
+<ul>
+	<li><a href="employeeloandetails.html">Employee loan</a></li>
+	<li><a href="">Loan application</a></li>
+</ul>
+</li>
+<li><a href="">Reports</a></li>
+<li><a href="">Trainings</a>
+<ul>
+	<li><a href="employeetraining.html">Employee training</a></li>
+	<li><a href="trainingevents.html">Training events</a></li>
+</ul>
+</li>
+<li><a href="announcement.html">Announcements</a></li>
+ 
+<li><a href="#">Logout</a></li>
+</div>
+</ul>
+</div>
+<h2>Welcome Admin</h2>
+	</body>
+</html>

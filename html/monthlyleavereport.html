@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hrms monthly leave report</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+	body{
+		background-color:#00008B;
+	}
+.row input{
+      color:black;
+	}
+	.row {
+      color:white;
+      padding: 4px;
+      margin: 5px;
+	}
+	.row tr td{
+		padding: 5px;
+	}
+	.col-sm-6 button{
+		color:black;
+	}
+}
+
+</style></head>
+<body>
+	<div class="row">
+	<div class="col-sm-6">
+	<table>
+		
+	  <tr>
+		<td>Enter Employee code:</td>
+		<td><input type="text"name="enter employee code"></td>
+	  </tr>
+	  <tr>
+		<td>Select the month:</td>
+		<td><select name="month">
+    <option value="Jan">Jan</option>
+    <option value="Feb">Feb</option>
+    <option value="March">March</option>
+    <option value="Apr">Apr</option>
+    <option value="May">May</option>
+    <option value="June">June</option>
+    <option value="July">July</option>
+    <option value="Aug">Aug</option>
+    <option value="Sep">Sep</option>
+    <option value="Oct">Oct</option>
+    <option value="Nov">Nov</option>
+    <option value="Dec">Dec</option>
+    </select>
+  </td>
+  	  </tr>
+
+      <tr>
+	   <td>Select the year:</td>
+		<td><select name="year">
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    </select>
+  </td>
+	  </tr>
+      <tr><td></td>
+	    <td><button type="submit" value="Enter">Enter</button></td>
+     </tr>
+     <tr>
+     	<td>Monthly Leave Report:</td>
+     </tr>
+     </table>
+     </div>
+     <div class="col-sm-6">
+     	<table>
+         <tr>
+     	<td>Total leave:</td>
+     	<td><input type="text" name="name1"></td>
+        </tr>
+        <tr>
+         <td>Remaining leave:</td>
+         <td><input type="text" name="name1"></td>
+         
+        </tr>
+        </table>
+     </div>
+
+        <input style="height:40em;width:100em;font-size:10px;margin: 0px 25px">
+    </table>
+     </div>
+</div>
+</body>       
+	
+	</html>

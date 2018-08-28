@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hrms menu</title>
+	<style>
+	body{
+	background-image:url("hrmsmenu1.jpg");
+	background-size: cover;
+background-position: cover;
+font-family: verdana;
+font-size: 10px;
+margin:0; 
+line-height: 5px;
+}
+.navbar{
+	text-align:center;
+	width: 100%;
+	background:white;
+	opacity: 0.5s;
+}
+.navbar ul{
+margin:0;
+padding:0;
+list-style: none;
+position: relative;
+}
+.navbar ul li a{
+	display: block;
+	padding:10px;
+	color: black;
+	text-decoration: none;
+	width:auto;
+}
+.navbar ul:after{
+	content:"";clear: both;
+	display: block;
+}
+.navbar ul li{
+	float: left;
+	list-style: none;
+	padding:auto;
+}
+.navbar ul ul{
+display: none;
+
+}
+.navbar ul li:hover>ul{
+	display:block;
+}
+.navbar ul li:hover {
+	background: lightblue;
+	transition: 0.9s;
+	padding: auto;
+}
+.navbar ul li:hover a{
+	color:white;
+}
+.navbar ul ul {
+	background:white;
+	padding: 0;
+	margin: 0;
+	position: absolute;top:100%;
+}
+.navbar ul ul li{
+	float:none;
+	position: relative;
+}
+.navbar ul ul li a{
+padding:5px;
+color: white;
+width:auto;
+text-align: left;
+font-size:auto;
+background-color:lightblue;
+}
+.navbar ul ul li a:hover {
+	background: lightblue;
+	color:lightblue;
+	transition: 0.9s;
+	width:auto;
+	background-color:#DCDCDC;
+}
+h4{
+	font-size: 20px;
+	color:#00008B;
+	margin-top: 0;
+}
+h5{
+	font-size: 15px;
+	text-align: right;
+   color:red;
+   }
+</style>
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+            <li><a href="#">Menu</a></li>
+	        
+
+    <li><a href="#">Leave</a></li>
+	
+    <li><a href="#">Loan</a>
+    <ul>
+	<li><a href="#">Apply for loan</a></li>
+	</ul>
+    </li>
+     <li><a href="#">Salary</a>
+    <ul>
+	<li><a href="#">Payslips</a></li>	
+    </ul>
+    </li>
+    <li><a href="#">Recruitment</a>
+    <ul>
+	<li><a href="#">Register</a></li>	
+    </ul>
+    </li>
+   
+    <li><a href="#"><i class="glyphicon glyphicon-remove"></i>Logout</a></li>
+
+</ul>
+</div>
+<h5><ins>Reset Password</ins></h5>
+<h4>Sundar</h4>
+
+</body>
+</html>
